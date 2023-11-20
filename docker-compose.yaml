@@ -3,7 +3,7 @@ services:
   echo-server:
     image: ealen/echo-server:latest
     enviroment:
-        - ENABLE_ENVIROMENT=false
+        - ENABLE__ENVIROMENT=false
       ports:
         - 3000:80
 
